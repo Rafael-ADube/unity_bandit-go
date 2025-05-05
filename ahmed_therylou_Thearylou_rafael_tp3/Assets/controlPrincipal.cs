@@ -17,11 +17,11 @@ public class controlPrincipal : MonoBehaviour
     {
         while(true)
         {
-            for (int i = 0; i < spawnPoint.Length; i++)
+            for (int i = 0; i < spawnPoint.Length; i++) //usage de chatgpt pour la boucle
             {
                 Instantiate(voiture[0], spawnPoint[i].position, spawnPoint[i].rotation);
             }
-            yield return new WaitForSeconds(Random.Range(0.5f , 3f)); 
+            yield return new WaitForSeconds(Random.Range(1.5f , 6f)); 
         }
     }
 

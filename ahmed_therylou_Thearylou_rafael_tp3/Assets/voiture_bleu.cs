@@ -7,6 +7,7 @@ public class voiture_bleu : MonoBehaviour
     public AudioSource sourceSonore;
     public AudioClip avancer;
     public AudioClip klaxon;
+    public GameObject voitureDestruction;
 
     private int random;
 
@@ -36,5 +37,6 @@ public class voiture_bleu : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * vitesseVoiture);
+        Destroy(voitureDestruction.gameObject, 10f);
     }
 }
