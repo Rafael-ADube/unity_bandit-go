@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - voiture
+  - Bonus
+  - Malus
+  - etoile
   layers:
   - Default
   - TransparentFX

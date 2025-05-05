@@ -1,3 +1,4 @@
+using Unity.VisualScripting.YamlDotNet.Core.Tokens;
 using Unity.XR.CoreUtils;
 using UnityEngine.Assertions;
 
@@ -15,6 +16,8 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
         /// </summary>
         /// <seealso cref="leftHandMovementDirection"/>
         /// <seealso cref="rightHandMovementDirection"/>
+        /// 
+
         public enum MovementDirection
         {
             /// <summary>
@@ -110,6 +113,9 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
             forwardSource = m_CombinedTransform;
         }
 
+  
+
+
         /// <inheritdoc />
         protected override Vector3 ComputeDesiredMove(Vector2 input)
         {
@@ -169,6 +175,8 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
                     Assert.IsTrue(false, $"Unhandled {nameof(MovementDirection)}={m_RightHandMovementDirection}");
                     break;
             }
+
+
 
             // Combine the two poses into the forward source based on the magnitude of input
             var leftHandValue = leftHandMoveAction.action?.ReadValue<Vector2>() ?? Vector2.zero;
