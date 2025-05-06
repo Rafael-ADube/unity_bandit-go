@@ -12,7 +12,9 @@ public class voiture_rouge : MonoBehaviour
 
     private int random;
 
-    public float vitesseVoiture = 30f;
+    public static float vitesseVoiture = 30f;
+    // voiture_rouge.vitesseVoiture = valeur de l'osc ()
+    // voiture_bleu.vitesseVoiture = valeur de l'osc ()
 
     private void Start()
     {
