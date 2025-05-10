@@ -793,7 +793,6 @@ MonoBehaviour:
   avancer: {fileID: 8300000, guid: e73e1e18ad6d8c345b4e05e85de19dee, type: 3}
   klaxon: {fileID: 8300000, guid: 080fa489e6d8ee74fb312e6fe5d95475, type: 3}
   voitureDestruction: {fileID: 0}
-  vitesseVoiture: 20
 --- !u!54 &-1274446016469262759
 Rigidbody:
   m_ObjectHideFlags: 0

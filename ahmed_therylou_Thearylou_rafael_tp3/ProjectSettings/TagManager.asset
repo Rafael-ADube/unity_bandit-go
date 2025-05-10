@@ -8,6 +8,7 @@ TagManager:
   - Bonus
   - Malus
   - etoile
+  - joueur
   layers:
   - Default
   - TransparentFX
