@@ -9,6 +9,7 @@ TagManager:
   - Malus
   - etoile
   - joueur
+  - player
   layers:
   - Default
   - TransparentFX
