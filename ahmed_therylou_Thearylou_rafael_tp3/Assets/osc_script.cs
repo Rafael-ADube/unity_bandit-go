@@ -26,6 +26,9 @@ public class OSCSpawnControl : MonoBehaviour
         else if (oscMessage.Values[0].Type == OSCValueType.Float)
         {
             value = oscMessage.Values[0].FloatValue;
+
+
+            Debug.Log("OSC :" + value);
             
             if(oscMessage.Address == "/voitureBleu")  {
             voiture_bleu.vitesseVoiture = value;
