@@ -21,7 +21,7 @@ public class controlPrincipal : MonoBehaviour
             {
                 Instantiate(voiture[0], spawnPoint[i].position, spawnPoint[i].rotation);
             }
-            yield return new WaitForSeconds(Random.Range(1.5f , 6f)); 
+            yield return new WaitForSeconds(Random.Range(1.2f , 3f)); 
         }
     }
 

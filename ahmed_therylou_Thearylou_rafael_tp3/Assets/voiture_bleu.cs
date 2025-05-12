@@ -11,7 +11,7 @@ public class voiture_bleu : MonoBehaviour
 
     private int random;
 
-    public float vitesseVoiture = 20f;
+    public static float vitesseVoiture = 20f;
 
     private void Start()
     {
