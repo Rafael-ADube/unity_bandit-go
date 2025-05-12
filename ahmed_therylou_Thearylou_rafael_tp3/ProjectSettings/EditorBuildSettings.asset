@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/OutdoorsScene.unity
+  - enabled: 0
+    path: Assets/scenes/OutdoorsScene.unity
     guid: 8124e5870f4fd4c779e7a5f994e84ad1
+  - enabled: 1
+    path: Assets/scenes/ahmed.unity
+    guid: 6bbbf4f4381c43e43992b04a138dad4a
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8e23f853e3aed7f48868cfb9e37e13a4,
       type: 2}
