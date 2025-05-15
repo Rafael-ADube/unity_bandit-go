@@ -10,6 +10,7 @@ TagManager:
   - etoile
   - joueur
   - player
+  - plancher
   layers:
   - Default
   - TransparentFX

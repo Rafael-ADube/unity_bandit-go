@@ -16,6 +16,7 @@ public class respawn : MonoBehaviour
         if (other.tag == "voiture")
         {
             xr.MoveCameraToWorldLocation(positionRespawn.transform.position);
-        }
+               
+        } 
     }
 }
